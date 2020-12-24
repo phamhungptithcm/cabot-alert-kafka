@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='cabot-alert-kafka',
-      version='1.0.0',
+      version='0.1.3',
       description='A Kafka plugin for Cabot by hxpham',
       author='hxpham',
       author_email='hxpham@etcc.com',
