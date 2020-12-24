@@ -6,13 +6,11 @@ import json
 from logging import getLogger
 logger = getLogger(__name__)
 
-class KafkaAlertPlugin(AlertPlugin):
+class KafkaAlert(AlertPlugin):
     name = "Kafka"
-    slug = "cabot_alert_kafka"
-    author = "Hung Pham"
 
     def send_alert(self, service, users, duty_officers):
-        KafkaAlertPlugin.send_alert(self,service)
+        KafkaAlert.send_alert(self,service)
         return True
     def send_kafka(self, messageDto):
         BOOTSTRAP_SERVER =env.get('BOOTSTRAP_SERVER')
