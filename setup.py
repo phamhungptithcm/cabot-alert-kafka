@@ -2,12 +2,12 @@
 
 from setuptools import setup, find_packages
 
-setup(name='cabot-alert-skeleton',
+setup(name='cabot-alert-kafka',
       version='1.0.0',
-      description='A Kafka plugin for Cabot by HxPham',
-      author='HxPham',
-      author_email='HxPham@etcc.com',
+      description='A Kafka plugin for Cabot by hxpham',
+      author='hxpham',
+      author_email='hxpham@etcc.com',
       url='http://cabotapp.com',
       packages=find_packages(),
-      download_url = 'https://github.com/phamhungptithcm/cabot-alert-kafka/tarball/1.0.0',
+      download_url = 'https://github.com/phamhungptithcm/cabot-alert-kafka/releases/tag/0.1.0',
      )
