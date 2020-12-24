@@ -1,2 +1,2 @@
 # cabot-alert-kafka
-cabot-alert-kafka
+cabot_alert_kafka
