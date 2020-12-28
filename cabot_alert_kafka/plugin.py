@@ -10,7 +10,7 @@ class KafkaAlert(AlertPlugin):
     name = "Kafka"
     slug = "cabot_alert_kafka"
     author = "Hung Pham"
-    version = "0.2.0"
+    version = "0.2.1"
 
     def send_alert(self, service, users, duty_officers):
         KafkaAlert.send_alert(self,service)
