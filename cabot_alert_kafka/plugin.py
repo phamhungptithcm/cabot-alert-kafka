@@ -1,4 +1,4 @@
-from cabot.cabotapp.alert import AlertPlugin
+from cabot.plugins.models import AlertPlugin, AlertPluginModel
 from kafka_service import KafkaService
 from os import environ as env
 import json
