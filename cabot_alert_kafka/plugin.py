@@ -1,7 +1,8 @@
-from cabot.plugins.models import AlertPlugin, AlertPluginModel
+from cabot.cabotapp.alert import AlertPlugin
 from kafka_service import KafkaService
 from os import environ as env
 import json
+from django.core.urlresolvers import reverse
 
 from logging import getLogger
 logger = getLogger(__name__)
@@ -10,7 +11,6 @@ class KafkaAlert(AlertPlugin):
     name = "Kafka"
     slug = "cabot_alert_kafka"
     author = "Hung Pham"
-    version = "0.2.1"
 
     def send_alert(self, service, users, duty_officers):
         KafkaAlert.send_alert(self,service)
