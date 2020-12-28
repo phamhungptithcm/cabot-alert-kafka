@@ -4,6 +4,8 @@ from django.db import models, migrations
 
 
 class Migration(migrations.Migration):
+    
+    initial = True
 
     dependencies = [
         ('cabotapp', '0001_initial'),
