@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('cabotapp', '0001_initial'),
+        ('cabotapp', '0003_auto_20170201_1045'),
     ]
 
     operations = [
