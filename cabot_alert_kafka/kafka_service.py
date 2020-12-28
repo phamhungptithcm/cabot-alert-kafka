@@ -8,7 +8,6 @@ logger = logging.getLogger(__name__)
 
 
 class KafkaService():
-    name='KafkaService'
     def produceMessage(self, bootstrapServer, topic, jsonMessage):
         try:
             producer = KafkaProducer(bootstrap_servers=bootstrapServer)
