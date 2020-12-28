@@ -8,7 +8,7 @@ logger = getLogger(__name__)
 
 class KafkaAlert(AlertPlugin):
     name = "Kafka"
-    slug = "cabot_alert_twilio"
+    slug = "cabot_alert_kafka"
     author = "Hung Pham"
     version = "0.2.0"
 
