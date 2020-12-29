@@ -9,5 +9,5 @@ setup(name='cabot-alert-kafka',
       author_email='hxpham@etcc.com',
       url='http://cabotapp.com',
       packages=find_packages(),
-      download_url = 'https://github.com/phamhungptithcm/cabot-alert-kafka/releases/tag/0.2.8.zip',
+      download_url = 'https://github.com/phamhungptithcm/cabot-alert-kafka/archive/0.2.8.zip',
      )
