@@ -7,7 +7,7 @@ from django.core.urlresolvers import reverse
 from logging import getLogger
 logger = getLogger(__name__)
 
-class KafkaAlert(AlertPlugin):
+class KafkaAlertPlugin(AlertPlugin):
     name = "Kafka"
     slug = "cabot_alert_kafka"
     author = "Hung Pham"
