@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     ]
     operations = [
         migrations.CreateModel(
-           name='KafkaAlertPlugin',
+           name='KafkaAlert',
            fields=[
                 ('alertplugin_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='cabotapp.AlertPlugin')),
             ],
