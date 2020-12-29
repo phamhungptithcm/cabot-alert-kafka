@@ -10,8 +10,6 @@ logger = getLogger(__name__)
 class KafkaAlert(AlertPlugin):
     name = "Kafka"
     slug = "cabot_alert_kafka"
-    author = "Hung Pham"
-    print('%s' % name + ': %s' % slug)
     def send_alert(self, service, users, duty_officers):
         KafkaAlert.send_alert(self,service)
         return True
